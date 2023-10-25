@@ -1,0 +1,59 @@
+OBJECTIVE:
+Ensure users are able to visit SuperSurvey.com, click the survey tab, add multiple choice answer, preview question, save the survey and validate the request was sent successfully.
+
+TEST SCENARIOS:
+Visit SuperSurvey Website:
+Open the SuperSurvey website.
+
+Navigate to the Survey Tab:
+Click on the survey tab.
+
+Add Survey Title:
+Type survey title name in field.
+
+Confirm Advanced Editor is accessible:
+Click the editor icon in the survey title field.
+
+Confirm Advanced Editor feature is functional:
+Edit the text using the TinyMCE editor, save or cancel changes.
+
+Confirm correct dropdown option is chosen:
+Verify Survey/Other option is chosen by default.
+
+Add Multiple Choice Answer:
+Click +ADD QUESTION button to add a multiple-choice answer.
+Click the Multiple Choice option.
+Confirm multiple choice template is displayed.
+Confirm text can be added to answer fields.
+Confirm options to delete and move fields are visible when clicking in answer fields.
+Confirm answer fields can be deleted and moved.
+Confirm a new answer text field is generated after all answer fields are created.
+
+
+
+Preview Questions:
+Confirm Preview Question button is visible
+Click the preview questions button.
+Confirm new browser tab is created displaying the correct survey title, multiple choice answers and finish button.
+Confirm checkboxes are displayed for the answer options.
+Confirm elements on the page are visible, spelled and aligned correctly.
+Confirm when answer is selected or finish button is clicked the message "Thanks for taking the survey" is displayed in bold text and center aligned on the page.
+
+
+Save Survey:
+Click button to save the survey.
+
+Confirm Request was Successful:
+Verify that a success message is displayed.
+
+ENVIRONMENT:
+The following browsers will be used for testing (Chrome, Firefox, Edge)
+
+AUTOMATION:
+Yes, using Cypress
+
+DEFECT REPORTING:
+Report defects to Peter Dentith
+
+TESTER:
+Robert West

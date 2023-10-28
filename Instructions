@@ -1,0 +1,6 @@
+Tthe follwing cypress files were added to my repository for your review.
+
+surveyspec.cy.js - this is my code.
+survey.json - this is my fixture file.
+command.js - custom command launchWebsite was added.
+cypress.config.js - baseUrl https://www.supersurvey.com/ was added.
